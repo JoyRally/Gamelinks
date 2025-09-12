@@ -25,7 +25,7 @@
     </div>
   </div>
 
-<div class="card">
+  <div class="card">
     <img src="img3.jpg" alt="MilkMan Karlson">
     <div class="info">
       <h2>MilkMan Karlson</h2>
@@ -33,5 +33,36 @@
     </div>
   </div>
 
+  <script>
+    // Add click animation to cards
+    const cards = document.querySelectorAll('.card');
+    cards.forEach(card => {
+      card.addEventListener('click', function() {
+        this.style.transform = 'scale(0.98)';
+        setTimeout(() => {
+          this.style.transform = 'scale(1)';
+        }, 200);
+      });
+    });
+
+    // Add download tracking
+    const downloadLinks = document.querySelectorAll('.info a');
+    downloadLinks.forEach(link => {
+      link.addEventListener('click', function(e) {
+        const appName = this.closest('.card').querySelector('h2').textContent;
+        console.log(`Download initiated for: ${appName}`);
+        alert(`Starting download for ${appName}`);
+      });
+    });
+
+    // Add hover effect to title
+    const title = document.querySelector('.title');
+    title.addEventListener('mouseenter', function() {
+      this.style.color = '#4285f4';
+    });
+    title.addEventListener('mouseleave', function() {
+      this.style.color = '';
+    });
+  </script>
 </body>
 </html>
