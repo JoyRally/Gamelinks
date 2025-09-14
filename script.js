@@ -5,11 +5,7 @@ const games = [
         title: "Cyber Quest", 
         desc: "Futuristic RPG adventure", 
         icon: "🧠",
-        images: [
-            "https://images.unsplash.com/photo-1542751371-adc38448a05e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-            "https://images.unsplash.com/photo-1511512578047-dfb367046420?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80",
-            "https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
-        ],
+        images: ["img1.jpg", "img2.jpg"],
         link: "https://example.com/download/cyber-quest"
     },
     { 
@@ -17,10 +13,7 @@ const games = [
         title: "Dragon Realm", 
         desc: "Epic fantasy battle game", 
         icon: "🐉",
-        images: [
-            "https://images.unsplash.com/photo-1542751371-adc38448a05e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-            "https://images.unsplash.com/photo-1519669556878-63bdad8a1a49?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80"
-        ],
+        images: ["img3.jpg", "img4.jpg"],
         link: "https://example.com/download/dragon-realm"
     },
     { 
@@ -28,9 +21,7 @@ const games = [
         title: "Neon Racing", 
         desc: "High-speed futuristic racing", 
         icon: "🚗",
-        images: [
-            "https://images.unsplash.com/photo-1542751371-adc38448a05e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
-        ],
+        images: ["img5.jpg"],
         link: "https://example.com/download/neon-racing"
     },
     { 
@@ -38,10 +29,7 @@ const games = [
         title: "Space Explorers", 
         desc: "Explore the unknown universe", 
         icon: "🚀",
-        images: [
-            "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80",
-            "https://images.unsplash.com/photo-1465101162946-4377e57745c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
-        ],
+        images: ["img6.jpg", "img7.jpg"],
         link: "https://example.com/download/space-explorers"
     },
     { 
@@ -49,9 +37,7 @@ const games = [
         title: "Magic Puzzles", 
         desc: "Mind-bending puzzle adventure", 
         icon: "🧩",
-        images: [
-            "https://images.unsplash.com/photo-1542751371-adc38448a05e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
-        ],
+        images: ["img8.jpg"],
         link: "https://example.com/download/magic-puzzles"
     },
     { 
@@ -59,11 +45,32 @@ const games = [
         title: "Zombie Survival", 
         desc: "Survive the zombie apocalypse", 
         icon: "🧟",
-        images: [
-            "https://images.unsplash.com/photo-1542751371-adc38448a05e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-            "https://images.unsplash.com/photo-1534423861386-85a16f5d13fd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
-        ],
+        images: ["img1.jpg", "img2.jpg"],
         link: "https://example.com/download/zombie-survival"
+    },
+    { 
+        id: 7, 
+        title: "Ocean Odyssey", 
+        desc: "Underwater exploration game", 
+        icon: "🐙",
+        images: ["img3.jpg", "img4.jpg"],
+        link: "https://example.com/download/ocean-odyssey"
+    },
+    { 
+        id: 8, 
+        title: "Wild West", 
+        desc: "Cowboy adventure shooter", 
+        icon: "🤠",
+        images: ["img5.jpg"],
+        link: "https://example.com/download/wild-west"
+    },
+    { 
+        id: 9, 
+        title: "Robot Arena", 
+        desc: "Build and battle your robots", 
+        icon: "🤖",
+        images: ["img6.jpg", "img7.jpg"],
+        link: "https://example.com/download/robot-arena"
     }
 ];
 
