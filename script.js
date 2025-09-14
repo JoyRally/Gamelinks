@@ -3,9 +3,9 @@ const games = [
     { 
         id: 1, 
         title: "CATO", 
-        desc: " ", 
-        icon: "🧠",
-        images: ["img1.jpg", "img2.jpg"],
+        desc: " 2d Platformer & adventure", 
+        icon: "😺",
+        images: ["img1.jpg"],
         link: "https://example.com/download/cyber-quest"
     },
     { 
