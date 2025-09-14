@@ -6,7 +6,7 @@ const games = [
         desc: " 2d Platformer & adventure", 
         icon: "😺",
         images: ["img1.jpg"],
-        link: "https://example.com/download/cyber-quest"
+        link: "https://blasin.itch.io/cato"
     },
     { 
         id: 2, 
