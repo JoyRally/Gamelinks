@@ -1,76 +1,68 @@
-// Sample game data with multiple images
+// Game data with your information
 const games = [
     { 
         id: 1, 
-        title: "CATO", 
-        desc: " 2d Platformer & adventure", 
-        icon: "😺",
+        title: "Cato", 
+        desc: "Platformer & adventure", 
+        icon: "🏃‍♂️",
         images: ["img1.jpg"],
         link: "https://blasin.itch.io/cato"
     },
     { 
         id: 2, 
-        title: "Dragon Realm", 
-        desc: "Epic fantasy battle game", 
-        icon: "🐉",
-        images: ["img3.jpg", "img4.jpg"],
-        link: "https://example.com/download/dragon-realm"
+        title: "Different Strokes", 
+        desc: "Open server & painting", 
+        icon: "🎨",
+        images: ["img2.jpg"],
+        link: "https://scottts.itch.io/different-strokes"
     },
     { 
         id: 3, 
-        title: "Neon Racing", 
-        desc: "High-speed futuristic racing", 
-        icon: "🚗",
-        images: ["img5.jpg"],
-        link: "https://example.com/download/neon-racing"
+        title: "Milkman Karlson", 
+        desc: "3D poly action & fun", 
+        icon: "🥛",
+        images: ["img3.jpg"],
+        link: "https://apkpure.com/milkman-karlson/com.Dani.MilkmanKarlson"
     },
     { 
         id: 4, 
-        title: "Space Explorers", 
-        desc: "Explore the unknown universe", 
-        icon: "🚀",
-        images: ["img6.jpg", "img7.jpg"],
-        link: "https://example.com/download/space-explorers"
+        title: "Carrion", 
+        desc: "Horror & platformer", 
+        icon: "🐙",
+        images: ["img4.jpg"],
+        link: "https://an1.com/7399-carrion-mod.html"
     },
     { 
         id: 5, 
-        title: "Magic Puzzles", 
-        desc: "Mind-bending puzzle adventure", 
-        icon: "🧩",
-        images: ["img8.jpg"],
-        link: "https://example.com/download/magic-puzzles"
+        title: "Walls Of Insanity", 
+        desc: "Horror FPS", 
+        icon: "🧱",
+        images: ["img5.jpg"],
+        link: "https://apkvision.org/games/action/wall-of-insanity-84780/"
     },
     { 
         id: 6, 
-        title: "Zombie Survival", 
-        desc: "Survive the zombie apocalypse", 
-        icon: "🧟",
-        images: ["img1.jpg", "img2.jpg"],
-        link: "https://example.com/download/zombie-survival"
+        title: "Cuphead Mobile", 
+        desc: "Cartoon & boss battles", 
+        icon: "☕",
+        images: ["img6.jpg"],
+        link: "https://apkvision.org/games/action/cuphead-100069/"
     },
     { 
         id: 7, 
-        title: "Ocean Odyssey", 
-        desc: "Underwater exploration game", 
-        icon: "🐙",
-        images: ["img3.jpg", "img4.jpg"],
-        link: "https://example.com/download/ocean-odyssey"
+        title: "Dead Effect", 
+        desc: "Horror FPS", 
+        icon: "🧟",
+        images: ["img7.jpg"],
+        link: "https://play.google.com/store/apps/details?id=com.bulkypix.deadeffect"
     },
     { 
         id: 8, 
-        title: "Wild West", 
-        desc: "Cowboy adventure shooter", 
-        icon: "🤠",
-        images: ["img5.jpg"],
-        link: "https://example.com/download/wild-west"
-    },
-    { 
-        id: 9, 
-        title: "Robot Arena", 
-        desc: "Build and battle your robots", 
-        icon: "🤖",
-        images: ["img6.jpg", "img7.jpg"],
-        link: "https://example.com/download/robot-arena"
+        title: "Fractal Space", 
+        desc: "Puzzle & FPS", 
+        icon: "🌌",
+        images: ["img8.jpg"],
+        link: "https://play.google.com/store/apps/details?id=com.hazegames.fractalspace"
     }
 ];
 
