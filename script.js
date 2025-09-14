@@ -2,8 +2,8 @@
 const games = [
     { 
         id: 1, 
-        title: "Cyber Quest", 
-        desc: "Futuristic RPG adventure", 
+        title: "CATO", 
+        desc: " ", 
         icon: "🧠",
         images: ["img1.jpg", "img2.jpg"],
         link: "https://example.com/download/cyber-quest"
